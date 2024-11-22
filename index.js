@@ -252,7 +252,7 @@ const createDir = function(dir) {
 	process.title = __dirname;
 	console.log("\u00A0");
 	console.log("\u00A0\u00A0\u00A0" + _colors.bgWhite(_colors.white("█████████████████")) + "\u00A0");
-	console.log("\u00A0\u00A0\u00A0" + _colors.bgRed(_colors.white(" #СвоихНеБросаем ")) + "\u00A0");
-	console.log("\u00A0\u00A0\u00A0" + _colors.bgBlue(_colors.blue("█████████████████")) + "\u00A0");
+	console.log("\u00A0\u00A0\u00A0" + _colors.bgBlue(_colors.white(" #СвоихНеБросаем ")) + "\u00A0");
+	console.log("\u00A0\u00A0\u00A0" + _colors.bgRed(_colors.red("█████████████████")) + "\u00A0");
 	console.log("\u00A0");
 }());
